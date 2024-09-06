@@ -1,632 +1,725 @@
-<!DOCTYPE html><html class="h-100" lang="en"><head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png"/>
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png"/>
-  <meta name="HandheldFriendly" content="true"/>
-  <title>BOU GROUP</title>
-  <!-- Owl Carousel CSS -->
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8"/>
+    <title>BOU - Property Management</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="Free HTML Templates" name="keywords"/>
+    <meta content="Free HTML Templates" name="description"/>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-  <link rel="stylesheet" href="assets/css/theme.min.css"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
-  
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon"/>
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+
+    <!-- Libraries Stylesheet -->
+    <link href="./assets/js/vendor/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+    <link href="./assets/js/vendor/lib/animate/animate.min.css" rel="stylesheet"/>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./assets/css/property/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Template Stylesheet -->
+    
 <link rel="stylesheet" href="assets/css/index.css"/>
-  </head>
+</head>
 
-<body id="bougroup" class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
-
-<div id="app-info"></div>
-<div class="page">
-
-<nav id="navScroll" class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-black fixed-top px-vw-5" aria-label="BOU-GROUP navbar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">BOU GROUP</a>
-    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navBou" aria-controls="navBou" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="navbar-collapse collapse" id="navBou">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: auto; margin-right: 0 !important;">
-        <li class="nav-item">
-          <a class="nav-link active" href="engineering.html" aria-label="Engineering">ENGINEERING</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="property.html" aria-label="Real Estate">REAL ESTATE</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="agriculture.html" aria-label="Agriculture">AGRICULTURE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="education.html" aria-label="Education">EDUCATION</a>
-        </li>
- 
-        <li class="nav-item">
-          <a class="nav-link" href="energy.html" aria-label="Energy">ENERGY</a>
-        </li>
-        
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li> -->
-        
-      </ul>
-      <!-- For other sub navigations -->
-      <!-- <form role="search">
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-      </form> -->
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
     </div>
-  </div>
-</nav>
-<main>
-      <div class="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
-  <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
-  <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
-  <div class="row d-flex align-items-center justify-content-center py-vh-5">
-    <div class="col-12 col-xl-10">
-      <span class="h5 text-secondary text-uppercase">Our Mission</span>
-      <h1 class="display-huge mt-3 mb-3 lh-1">BOU GROUP <br/>Innovating Across Industries for a Sustainable Future</h1>
-    </div>
-    <div class="col-12 col-xl-8">
-      <p class="lead text-secondary">
-        We believe in the power of integrated innovation. We are at the forefront of transforming education, reshaping skylines, engineering breakthroughs, pioneering sustainable energy solutions, collecting data and revolutionizing agriculture. Our diverse portfolio is united by a single mission: to create lasting value for society and our stakeholders.</p>
-    </div>
-    <div class="col-12 text-center">
-      <a href="#contact" class="btn btn-xl btn-light">Contact Us
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-</svg>
-</a>
-    </div>
-  </div>
-</div>
+    <!-- Spinner End -->
 
-</div>
-
-<div class="bg-dark">
-  <div class="container px-vw-5 py-vh-5">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
-        <span class="h5 text-secondary">Highlights:</span>
-        <h2 class="display-4">Empowering Minds, Shaping Futures</h2>
-      </div>
-      <div class="col-12 col-lg-5" data-aos="fade-left">
-        <h3 class="pt-5">BOU Education Launches AI-Driven Learning Platform</h3>
-        <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/>
-          <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-</svg>
-</p>
-        <h3 class="border-top border-secondary pt-5 mt-5">BOU Properties Unveils Carbon-Neutral Skyscraper in Singapore</h3>
-        <p class="text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/>
-          <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-</svg>
-</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="bg-black py-vh-3">
-  <div class="container bg-black px-vw-5 py-vh-3 rounded-2 shadow">
-
-    <!-- STAR OF DAVID STARTS -->
-
-    <div class="container px-vw-5 py-vh-5">
-      <div class="star-container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <!-- Real Estate Card -->
-          <div class="col" data-aos="zoom-in-up">
-            <div class="card bg-transparent h-100">
-              <div class="bg-dark shadow rounded-1 p-0 d-flex flex-column h-100">
-                <div class="card-img-top" style="height: 200px; overflow: hidden;">
-                  <img src="assets/img/property.jpg" alt="abstract image" class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"/>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, Abuja, Nigeria</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+234 80 345 4321</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@pms.bougroup.org</small>
                 </div>
-                <div class="p-5 d-flex flex-column flex-grow-1">
-                  <h2>REAL ESTATE</h2>
-                  <p class="pb-1 text-secondary flex-grow-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                   
-                  <!-- Footer -->
-                  <div class="accordion-footer mt-3 d-flex justify-content-between align-items-center">
-                    <a href="property.html" class="link-fancy link-fancy-light">Learn More About Our Services</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-          
-          <!-- Engineering Card -->
-          <div class="col" data-aos="zoom-in-up">
-            <div class="card bg-transparent h-100">
-              <div class="bg-dark shadow rounded-2 p-0 d-flex flex-column h-100">
-                <div class="card-img-top" style="height: 200px; overflow: hidden;">
-                  <img src="assets/img/engineering.jpg" alt="abstract image" class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"/>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
                 </div>
-                <div class="p-5 d-flex flex-column flex-grow-1">
-                  <h2>ENGINEERING</h2>
-                  <p class="pb-4 text-secondary flex-grow-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                  
-                  <!-- Footer -->
-                  <div class="accordion-footer mt-3 d-flex justify-content-between align-items-center">
-                    <a href="engineering.html" class="link-fancy link-fancy-light">Learn More About Our Services</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-    
-          <!-- Agriculture Card -->
-          <div class="col" data-aos="zoom-in-up">
-            <div class="card bg-transparent h-100">
-              <div class="bg-dark shadow rounded-2 p-0 d-flex flex-column h-100">
-                <div class="card-img-top" style="height: 200px; overflow: hidden;">
-                  <img src="assets/img/agric.jpg" alt="abstract image" class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"/>
-                </div>
-                <div class="p-5 d-flex flex-column flex-grow-1">
-                  <h2>AGRICULTURE</h2>
-                  <p class="pb-4 text-secondary flex-grow-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                  <!-- Footer -->
-                  <div class="accordion-footer mt-3 d-flex justify-content-between align-items-center">
-                    <a href="agriculture.html" class="link-fancy link-fancy-light">Learn More About Our Services</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Education Card -->
-          <div class="col" data-aos="zoom-in-up">
-            <div class="card bg-transparent h-100">
-              <div class="bg-dark shadow rounded-2 p-0 d-flex flex-column h-100">
-                <div class="card-img-top" style="height: 200px; overflow: hidden;">
-                  <img src="assets/img/education.jpg" alt="abstract image" class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"/>
-                </div>
-                <div class="p-5 d-flex flex-column flex-grow-1">
-                  <h2>EDUCATION</h2>
-                  <p class="pb-4 text-secondary flex-grow-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-    
-                  <!-- Footer -->
-                  <div class="accordion-footer mt-3 d-flex justify-content-between align-items-center">
-                    <a href="education.html" class="link-fancy link-fancy-light">Learn More About Our Services</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Energy Card -->
-          <div class="col" data-aos="zoom-in-up">
-            <div class="card bg-transparent h-100">
-              <div class="bg-dark shadow rounded-2 p-0 d-flex flex-column h-100">
-                <div class="card-img-top" style="height: 200px; overflow: hidden;">
-                  <img src="assets/img/energy.jpg" alt="abstract image" class="img-fluid w-100 h-100 object-fit-cover" loading="lazy"/>
-                </div>
-                <div class="p-5 d-flex flex-column flex-grow-1">
-                  <h2>ENERGY</h2>
-                  <p class="pb-4 text-secondary flex-grow-1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-                  
-                  <!-- Footer -->
-                  <div class="accordion-footer mt-3 d-flex justify-content-between align-items-center">
-                    <a href="energy.html" class="link-fancy link-fancy-light">Learn More About Our Services</a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+    </div>
+    <!-- Topbar End -->
+
+
+
+    <div class="page">
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0" id="home">
+      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+          <a href="index.html" class="navbar-brand p-0">
+              <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>PMS</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                  <a href="#" class="nav-item nav-link">Home</a>
+                  <a href="#about" class="nav-item nav-link">About</a>
+                  <a href="#service" class="nav-item nav-link">Services</a>
+                  <!-- <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="blog.html" class="dropdown-item">Blog</a>
+                          <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                      </div>
+                  </div> -->
+                  <!-- <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                      <div class="dropdown-menu m-0">
+                          <a href="#features" class="dropdown-item">Our features</a>
+                          <a href="#team" class="dropdown-item">Team Members</a>
+                          <a href="#testimonial" class="dropdown-item">Testimonial</a>
+                          <a href="#quote" class="dropdown-item">Free Quote</a>
+                      </div>
+                  </div> -->
+
+                  <a href="#contact" class="nav-item nav-link">Contact</a>
+                  <a href="#faq" class="nav-item nav-link">FAQ</a>
+              </div>
+              <!-- Search For Modal -->
+              <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
+              <a href="https://pms.bougroup.org/account/login.html" class="btn btn-primary py-2 px-4 ms-3">Register / Login</a>
+          </div>
+      </nav>
+
+      <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img class="w-100" src="../public/assets/img/property/property1.jpg" alt="Image"/>
+                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                      <div class="p-3" style="max-width: 900px;">
+                          <h4 class="text-white text-uppercase mb-3 animated slideInDown">Revolutionize Your Real Estate with PMS</h4>
+                          <h2 class="display-4 text-white mb-md-4 animated zoomIn">Manage your properties, tenants and rent collection with us</h2>
+                          <a href="https://pms.bougroup.org/account/login.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Create free account / Login</a>
+                          <a href="#service" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img class="w-100" src="../public/assets/img/property/property1.jpg" alt="Image"/>
+                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                      <div class="p-3" style="max-width: 900px;">
+                          <h2 class="display-4 text-white mb-md-4 animated zoomIn">Your Real Estate Portfolio is in your control</h2>
+                          <a href="https://pms.bougroup.org/account/login.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Create free account / Login</a>
+                          <a href="#" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
       </div>
-    </div>
-    
-    <!-- STAR OF DAVIDS ENDS -->
-
-</div>
-
-</div>
-
-
-<div class="container bg-black py-vh-3">
-  <h2 class="text-center text-white mb-5" data-aos="fade-up">
-    Innovating Across Industries: Our Multifaceted Approach
-  </h2>
-  <div class="row">
-    <div class="col-lg-6 col-md-12 branch-summary">
-      <i class="fas fa-cogs text-white me-2"></i>
-        <p>Our engineering division drives development and functionality across all projects. With cutting-edge technology and innovative approaches, we create robust solutions that power progress in various industries. Our team of skilled engineers works tirelessly to design, implement, and maintain systems that are efficient, scalable, and future-proof.</p>
-    </div>
-    <div class="col-lg-6 col-md-12 branch-summary">
-      <i class="fas fa-tractor text-white me-2"></i>
-        <p>In agriculture, we&#39;re developing advanced systems to collect crucial soil data from plants and monitor livestock health. By applying data analytics and IoT solutions, we aim to increase crop yields, improve animal husbandry, and contribute to food security in Nigeria. Our smart farming solutions empower farmers with actionable insights for sustainable agriculture.</p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-12 branch-summary">
-      <i class="fas fa-home text-white me-2"></i>
-        <p>Our real estate sector is revolutionizing property management with our dynamic Property Management System (PMS) software. This innovative solution streamlines operations for property owners, managers, and tenants alike. From automated rent collection to maintenance request tracking, our PMS enhances efficiency and transparency in real estate operations.</p>
-    </div>
-    <div class="col-lg-6 col-md-12 branch-summary">
-      <i class="fas fa-graduation-cap text-white me-2"></i>
-        <p>In education, we&#39;re empowering the leaders of tomorrow. Through partnerships with schools and organizations, we provide access to cutting-edge educational technologies, coding bootcamps, and mentorship programs. By bridging the digital divide and fostering innovation, we&#39;re preparing Nigerian youth for the challenges and opportunities of the future.</p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-6 col-md-12 branch-summary">
-      <i class="fas fa-bolt text-white me-2"></i>
-        <p>Our energy division is committed to providing renewable and sustainable means of energy generation. We&#39;re developing innovative solutions in solar, wind, and biomass energy to address Nigeria&#39;s power challenges. Our projects range from small-scale solar installations for rural communities to large-scale renewable energy farms, ensuring a stable power supply and contributing to environmental conservation.</p>
-    </div>
-</div>
-</div>
-
-<div class="bg-dark py-vh-5">
-  <div class="container px-vw-5">
-    <div class="row d-flex gx-5 align-items-center">
-      <div class="col-12 col-lg-6">
-        <div class="rounded-5 bg-black p-5 shadow aos-init aos-animate" data-aos="zoom-in-right">
-          <div class="fs-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-          </div>
-          <p class="text-secondary lead">&#34;Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore et
-            dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.&#34;</p>
-          <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-            <img src="img/webp/person14.webp" width="96" height="96" class="rounded-circle me-3 aos-init" alt="a nice person" data-aos="fade" loading="lazy"/>
-            <div>
-              <span class="h6 fw-5">Jane Doemunsky</span><br/>
-              <small class="text-secondary">COO, The Boo Corp.</small>
-            </div>
-          </div>
-        </div>
-        <div class="rounded-5 bg-black p-5 shadow mt-5 aos-init" data-aos="zoom-in-right">
-          <div class="fs-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
-              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"></path>
-            </svg>
-
-          </div>
-          <p class="text-secondary lead">&#34;Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.&#34;</p>
-          <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-            <img src="img/webp/person13.webp" width="96" height="96" class="rounded-circle me-3 aos-init" alt="a nice person" data-aos="fade" loading="lazy"/>
-            <div>
-              <span class="h6 fw-5">Jane Doemunsky</span><br/>
-              <small class="text-secondary">COO, The Boo Corp.</small>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="col-12 col-lg-6">
-        <div class="p-5 pt-0 aos-init aos-animate" data-aos="fade">
-          <span class="h5 text-secondary fw-lighter">What others have to say</span>
-          <h2 class="display-4">Invidunt ut labore et dolore magna aliquyam erat.</h2>
-        </div>
-        <div class="rounded-5 bg-black p-5 shadow mt-5 gradient aos-init" data-aos="zoom-in-left">
-          <div class="fs-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-            </svg>
-
-
-          </div>
-          <p class="lead">&#34;Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.&#34;</p>
-          <div class="d-flex justify-content-start align-items-center border-top pt-3">
-            <img src="img/webp/person16.webp" width="96" height="96" class="rounded-circle me-3 aos-init" alt="a nice person" data-aos="fade" loading="lazy"/>
-            <div>
-              <span class="h6 fw-5">Jane Doemunsky</span><br/>
-              <small>COO, The Boo Corp.</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-
-</div>
-
-</main>
+  <!-- Navbar & Carousel End -->
 
 
-<!-- CONTACT STARTS -->
-
-
-<div class="container py-5">
-	<div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-		<h5 id="contact" class="fw-bold text-uppercase mt-5">Contact Us</h5>
-		<h1 class="mb-0">If You Have Any Query, Feel Free To Reach Out</h1>
-	</div>
-	
-	<div class="row g-5">
-		<div class="col-lg-4">
-			<div class="d-flex align-items-center wow mb-5 fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">
-				<div class="bg-white d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-					<i class="fa fa-map-marker-alt text-dark"></i>
-				</div>
-				<div class="ps-4">
-					<h5 class="mb-2">Visit our office</h5>
-					<h4 class="text-white mb-0"><a href="#" class="btn btn-dark">123 Street, Abuja, Nigeria</a></h4>
-				</div>
-			</div>
-			<div class="d-flex align-items-center wow mb-5 fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-				<div class="bg-white d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-					<i class="fa fa-envelope-open text-dark"></i>
-				</div>
-				<div class="ps-4">
-					<h5 class="mb-2">Email us at</h5>
-					<h4 class="text-white mb-0"><a href="mailto:info@bougroup.org" class="btn btn-dark">info@bougroup.org</a></h4>
-				</div>
-			</div>
-			<div class="d-flex align-items-center wow mb-5 fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-				<div class="bg-white d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-					<i class="fa fa-phone-alt text-dark"></i>
-				</div>
-				<div class="ps-4">
-					<h5 class="mb-2">Call to ask any question</h5>
-					<h4 class="text-white mb-0"><a href="tel:+1234567890" class="btn btn-dark">+012 345 6789</a></h4>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-8 justify-content-center wow slideInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: slideInUp;">
-			<form>
-				<div class="row g-3">
-					<div class="col-md-6">
-						<input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;"/>
-					</div>
-					<div class="col-md-6">
-						<input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;"/>
-					</div>
-					<div class="col-12">
-						<input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;"/>
-					</div>
-					<div class="col-12">
-						<textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
-					</div>
-					<div class="col-12">
-						<button class="border btn btn-dark w-100 py-3" type="submit">Send Message</button>
-					</div>
-				</div>
-			</form>
-		</div>
-		
-	</div>
-</div>
-
-
-<!-- CONTACTS ENDS -->
-
-	
-  <!-- FOOTER STARTS -->
-
-<footer class="bg-black border-top border-dark">
-  <div class="container py-vh-4 p-3 text-secondary">
-    <div class="row">
-      <div class="col-12 col-lg-5 text-center text-lg-start">
-            <a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
-  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-stack" viewBox="0 0 16 16">
-    <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"></path>
-    <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"></path>
-  </svg>
-  <span class="mb-5 mt-2 fw-bolder ">BOU GROUP</span>
-</a>
-
+    <!-- Facts Start -->
+    <div class="container-fluid mt-5 py-5 pt-lg-0">
+      <div class="container py-5 pt-lg-0">
+          <div class="row gx-4">
+              <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                  <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                      <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                          <i class="fa fa-users text-primary"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="text-white mb-0">Clients</h5>
+                          <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                  <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                      <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                          <i class="fa fa-check text-white"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="text-primary mb-0">Properties</h5>
+                          <h1 class="mb-0" data-toggle="counter-up">12345</h1>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                  <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                      <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                          <i class="fa fa-award text-primary"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="text-white mb-0">Locations</h5>
+                          <h1 class="text-white mb-0" data-toggle="counter-up">12</h1>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <div class="col border-end border-dark">
-        <span class="h5 mb-5" style="margin-bottom: 40px !important;">EXPLORE BOU</span>
-<ul class="nav flex-column">
-  <li class="nav-item mb-2">
-    <a href="engineering.html" class="link-fancy link-fancy-light"><i class="fas fa-cogs text-white me-2"></i>ENGINEERING</a>
-  </li>
-  <li class="nav-item mb-2">
-    <a href="property.html" class="link-fancy link-fancy-light"><i class="fas fa-home text-white me-2"></i>REAL ESTATE</a>
-  </li>
-  <li class="nav-item mb-2">
-    <a href="agriculture.html" class="link-fancy link-fancy-light"><i class="fas fa-tractor text-white me-2"></i>AGRICULTURE</a>
-  </li>
-  <li class="nav-item mb-2">
-    <a href="education.html" class="link-fancy link-fancy-light"><i class="fas fa-graduation-cap text-white me-2"></i>EDUCATION</a>
-  </li>
-
-  <li class="nav-item mb-2">
-    <a href="energy.html" class="link-fancy link-fancy-light"><i class="fas fa-bolt text-white me-2"></i>ENERGY</a>
-  </li>
-  
-</ul>
-      </div>
-      
-      <div class="col border-dark">
-                <span class="h5" style="margin-bottom: 40px !important;">SUPPORT</span>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2">
-                    <a href="" class="link-fancy link-fancy-light"><i class="fas fa-info-circle text-white me-2"></i>ABOUT US</a>
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="#contact" class="link-fancy link-fancy-light"><i class="fas fa-envelope text-white me-2"></i>CONTACT</a>
-                  </li>
-
-                  <li class="nav-item mb-2">
-                    <a href="career.html" class="link-fancy link-fancy-light"><i class="fas fa-briefcase text-white me-2"></i>CAREER</a>
-                  </li>
-                </ul>
-      </div>
-    </div>
   </div>
-  <div class="container text-left p-3 small py-vh-2 border-top border-dark">
-	<div class="row flex-column flex-lg-row">
-	  <div class="col-12 col-lg-6 mb-3 mb-lg-0">
-		<div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start">
-		  <div class="d-flex align-items-center mb-2 mb-lg-0 me-lg-3">
-			@COPYRIGHT
-			<a href="#bougroup" class="link-fancy link-fancy-light p-2"> BOUGROUP </a>
-		  </div>
-		  <span id="date" class="mt-2 mt-lg-0"></span>
-		</div>
-	  </div>
-	  <div class="col-12 col-lg-6">
-		<div class="social d-flex flex-row justify-content-center justify-content-lg-end">
-		  <div class="fw-bold d-flex align-items-center me-3">
-			<a href="https://twitter.com/your_twitter_handle" class="btn btn-dark me-2">
-			  <i class="fab fa-twitter"></i> 
-			</a>
-			Twitter
-		  </div>
-		  <div class="fw-bold d-flex align-items-center">
-			<a href="https://facebook.com/your_facebook_page" class="btn btn-dark me-2">
-			  <i class="fab fa-facebook-f"></i> 
-			</a>
-			Facebook
-		  </div>
-		</div>
-	  </div>
-	</div>
+  <!-- Facts Start -->
+
+  <!-- About Start -->
+  <div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-lg-7">
+                  <div class="section-title position-relative pb-3 mb-3">
+                      <h5 class="fw-bold text-primary text-uppercase">About PMS</h5>
+                  </div>
+                  <h2 class="mb-4">Property management system(PMS) is an application designed for landlords, real estate companies, and property managers to streamline property management, rent collection, and maintenance tracking.</h2>
+                  <div class="row g-0 mb-3">
+                      <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Efficient Rent Collection</h5>
+                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Comprehensive Reporting</h5>
+                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Seamless Maintenance Tracking</h5>
+                      </div>
+                      <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                      </div>
+                  </div>
+                  <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                      <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                          <i class="fa fa-phone-alt text-white"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="mb-2">Call to ask any question</h5>
+                          <h4 class="text-primary mb-0">+012 345 6789</h4>
+                      </div>
+                  </div>
+                  <a href="#" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
+              </div>
+              <div class="col-lg-5" style="min-height: 500px;">
+                  <div class="position-relative h-100">
+                      <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="../public/assets/img/agric.jpg" style="object-fit: cover;"/>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-</footer>
-</div>
-<script type="module" src="assets/js/index.js"></script>
-<a href="#" class="btn btn-lg btn-dark btn-lg-square rounded back-to-top p-3" style="display: inline;"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"></path>
-</svg></a>
-
-<!-- Scripts starts -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/aos.js"></script>
-<script>
-AOS.init({
- duration: 800, // values from 0 to 3000, with step 50ms
-});
-</script>
-<script>
-  let scrollpos = window.scrollY
-  const header = document.querySelector(".navbar")
-  const header_height = header.offsetHeight
-
-  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
-  const date = document.getElementById("date").innerHTML = new Date()
-
-  window.addEventListener('scroll', function() {
-    scrollpos = window.scrollY;
-
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
-
-    console.log(scrollpos)
-  })
-  $(document).ready(function(){
-      $(".testimonial-carousel").owlCarousel({
-          items: 3,
-          loop: true,
-          margin: 20,
-          autoplay: true,
-          autoplayTimeout: 5000,
-          autoplayHoverPause: true,
-          responsive:{
-              0:{
-                  items:1
-              },
-              768:{
-                  items:2
-              },
-              992:{
-                  items:3
-              }
-          }
-      });
-  });
-</script>
+  <!-- About End -->
 
   
 
+  <!--  Services Start -->
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5" id="service">
+          <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+              <h5 class="fw-bold text-primary text-uppercase">Who Can Benefit from PMS?</h5>
+              <h1 class="mb-0">We Are Here to Grow and Organise Your Real Estate Portfolio</h1>
+          </div>
+          <div class="row g-5">
+              <div class="col-lg-4">
+                  <div class="row g-5">
+                      <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                          <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                              <i class="bi bi-person-badge text-white" style="font-size: 2rem;"></i>
+                          </div>
+                          <h4>Landlords</h4>
+                          <p class="mb-0">Manage properties, view tenant info, and track rental revenue effortlessly.</p>
+                      </div>
+                      <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                          <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                              <i class="bi bi-megaphone text-white" style="font-size: 2rem;"></i>
+                          </div>
+                          <h4>Property Managers</h4>
+                          <p class="mb-0">Oversee maintenance, share vacant units with agents, and handle tenant applications.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                  <div class="position-relative h-100">
+                      <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;"/>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="row g-5">
+                      <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                          <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                              <i class="fa fa-users-cog text-white" style="font-size: 2rem;"></i>
+                          </div>
+                          <h4>Tenants</h4>
+                          <p class="mb-0">Pay rent, report maintenance issues, and manage lease agreements seamlessly.</p>
+                      </div>
+                      <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                          <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                              <i class="fa fa-phone-alt text-white" style="font-size: 2rem;"></i>
+                          </div>
+                          <h4>Agents</h4>
+                          <p class="mb-0">Agents will collaborate indirectly with the PMS through communication with property managers or landlords, who will be responsible for entering all relevant data related to the agents&#39; activities, such as property inspections and tenant viewings. </p>
+                          <p class="mb-0">This streamlined process ensures that all necessary information is accurately recorded and managed within the PMS, enhancing efficiency and coordination between all parties involved.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Service End -->
 
+
+
+  <!--  Features Start -->
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+          <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+              <h1 class="mb-0">Tenant Acquisition Flow</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!-- Step 1 -->
+              <div class="col">
+                  <div class="card h-100 border-light shadow-sm">
+                      <div class="card-body d-flex flex-column">
+                          <i class="bi bi-house-door fs-1 mb-3 text-primary"></i>
+                          <h5 class="card-title">Share Vacant Units</h5>
+                          <p class="card-text flex-grow-1">Property managers share vacant units with agents to find prospective tenants.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Step 2 -->
+              <div class="col">
+                  <div class="card h-100 border-light shadow-sm">
+                      <div class="card-body d-flex flex-column">
+                          <i class="bi bi-people fs-1 mb-3 text-primary"></i>
+                          <h5 class="card-title">Agent Marketing</h5>
+                          <p class="card-text flex-grow-1">Agents market the available units to potential tenants.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Step 3 -->
+              <div class="col">
+                  <div class="card h-100 border-light shadow-sm">
+                      <div class="card-body d-flex flex-column">
+                          <i class="bi bi-calendar-check fs-1 mb-3 text-primary"></i>
+                          <h5 class="card-title">Schedule Inspections</h5>
+                          <p class="card-text flex-grow-1">Agents request inspection dates from property managers, which are then communicated to tenants.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Step 4 -->
+              <div class="col">
+                  <div class="card h-100 border-light shadow-sm">
+                      <div class="card-body d-flex flex-column">
+                          <i class="bi bi-journal-text fs-1 mb-3 text-primary"></i>
+                          <h5 class="card-title">Feedback Collection</h5>
+                          <p class="card-text flex-grow-1">Property managers collect inspection feedback and start the tenant application process.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Step 5 -->
+              <div class="col">
+                  <div class="card h-100 border-light shadow-sm">
+                      <div class="card-body d-flex flex-column">
+                          <i class="bi bi-check2-circle fs-1 mb-3 text-primary"></i>
+                          <h5 class="card-title">Landlord Approval</h5>
+                          <p class="card-text flex-grow-1">Applications are reviewed by the landlord, who makes final decisions.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Step 6 -->
+              <div class="col">
+                  <div class="card h-100 border-light shadow-sm">
+                      <div class="card-body d-flex flex-column">
+                          <i class="bi bi-credit-card fs-1 mb-3 text-primary"></i>
+                          <h5 class="card-title">Tenant Account Setup</h5>
+                          <p class="card-text flex-grow-1">Upon approval, a tenant account is created, and details are sent via SMS.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Features End -->
+
+
+  <!-- Testimonial Start -->
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+          <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+              <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
+          </div>
+          <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+              <div class="testimonial-item bg-light my-4">
+                  <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                      <img class="img-fluid rounded" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;"/>
+                      <div class="ps-4">
+                          <h4 class="text-primary mb-1">Client Name</h4>
+                          <small class="text-uppercase">Profession</small>
+                      </div>
+                  </div>
+                  <div class="pt-4 pb-5 px-5">
+                      Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                  </div>
+              </div>
+              <div class="testimonial-item bg-light my-4">
+                  <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                      <img class="img-fluid rounded" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;"/>
+                      <div class="ps-4">
+                          <h4 class="text-primary mb-1">Client Name</h4>
+                          <small class="text-uppercase">Profession</small>
+                      </div>
+                  </div>
+                  <div class="pt-4 pb-5 px-5">
+                      Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                  </div>
+              </div>
+              <div class="testimonial-item bg-light my-4">
+                  <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                      <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;"/>
+                      <div class="ps-4">
+                          <h4 class="text-primary mb-1">Client Name</h4>
+                          <small class="text-uppercase">Profession</small>
+                      </div>
+                  </div>
+                  <div class="pt-4 pb-5 px-5">
+                      Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                  </div>
+              </div>
+              <div class="testimonial-item bg-light my-4">
+                  <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                      <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;"/>
+                      <div class="ps-4">
+                          <h4 class="text-primary mb-1">Client Name</h4>
+                          <small class="text-uppercase">Profession</small>
+                      </div>
+                  </div>
+                  <div class="pt-4 pb-5 px-5">
+                      Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Testimonial End -->
+
+
+
+
+  <!-- Quote Start -->
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-lg-7">
+                  <div class="section-title position-relative pb-3 mb-5">
+                      <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
+                      <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
+                  </div>
+                  <div class="row gx-3">
+                      <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                          <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                      </div>
+                      <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                          <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
+                      </div>
+                  </div>
+                  <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                  <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                      <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                          <i class="fa fa-phone-alt text-white"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="mb-2">Call to ask any question</h5>
+                          <h4 class="text-primary mb-0">+234 80 345 4321</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-5">
+                  <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                      <form>
+                          <div class="row g-3">
+                              <div class="col-xl-12">
+                                  <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;"/>
+                              </div>
+                              <div class="col-12">
+                                  <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;"/>
+                              </div>
+                              <div class="col-12">
+                                  <select class="form-select bg-light border-0" style="height: 55px;">
+                                      <option selected="">Select A Service</option>
+                                      <option value="1">Service 1</option>
+                                      <option value="2">Service 2</option>
+                                      <option value="3">Service 3</option>
+                                  </select>
+                              </div>
+                              <div class="col-12">
+                                  <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
+                              </div>
+                              <div class="col-12">
+                                  <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Quote End -->
+
+
+
+
+  <!-- Contact Start -->
+  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5" id="contact">
+          <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+              <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
+              <h1 class="mb-0">Feel Free To Contact Us</h1>
+          </div>
+          <div class="row g-5 mb-5">
+              <div class="col-lg-4">
+                  <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
+                      <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                          <i class="fa fa-phone-alt text-white"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="mb-2">Office Line:</h5>
+                          <h4 class="text-primary mb-0">+234 80 345 4321</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
+                      <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                          <i class="fa fa-envelope-open text-white"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="mb-2">Email:</h5>
+                          <h4 class="text-primary mb-0">info@pms.bougroup.org</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
+                      <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                          <i class="fa fa-map-marker-alt text-white"></i>
+                      </div>
+                      <div class="ps-4">
+                          <h5 class="mb-2">Office:</h5>
+                          <h4 class="text-primary mb-0">123 Street, Abuja, Nigeria</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row g-5">
+              <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                  <form>
+                      <div class="row g-3">
+                          <div class="col-md-6">
+                              <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;"/>
+                          </div>
+                          <div class="col-md-6">
+                              <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;"/>
+                          </div>
+                          <div class="col-12">
+                              <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;"/>
+                          </div>
+                          <div class="col-12">
+                              <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                          </div>
+                          <div class="col-12">
+                              <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+              <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                  <iframe class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Contact End -->
+
+
+
+<!-- FAQ Starts -->
+<section id="faq" class="container-fluid py-5 wow fadeInUp">
+  <div class="container">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+      <!-- FAQ Item 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+            How does PMS help landlords manage their properties?
+          </button>
+        </h2>
+        <div id="faqOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            PMS helps landlords oversee rental properties by providing tools for managing tenants, tracking rent collection, and handling maintenance issues.
+          </div>
+        </div>
+      </div>
+      <!-- FAQ Item 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+            What are the benefits of using PMS for property managers?
+          </button>
+        </h2>
+        <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Property managers can share vacant properties with agents, manage tenant applications, create inspections, and report maintenance issues all in one platform.
+          </div>
+        </div>
+      </div>
+      <!-- FAQ Item 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+            Can tenants use PMS to pay rent online?
+          </button>
+        </h2>
+        <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, tenants can pay rent, download invoices, sign agreements, and report maintenance issues directly within the PMS app.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FAQ Ends -->
+
+
+
+
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-primary text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+	<div class="container">
+		<div class="row gx-5">
+			<div class="col-lg-4 col-md-6 footer-about">
+				<div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-info p-4">
+					<a href="#home" class="navbar-brand">
+						<h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>PMS</h1>
+					</a>
+					<p class="mt-3 mb-1">Ready to Streamline Your Property Management?</p>
+					<p class="mb-2">Sign up for a free demo and discover how PMS can make property management easier for you!</p>
+					<a href="#" class="btn btn-dark py-2 px-4 ms-3">Register / Login</a>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-6">
+				<div class="row gx-5">
+					<div class="col-lg-4 col-md-12 pt-5 mb-5">
+						<div class="section-title section-title-sm position-relative pb-3 mb-4">
+							<h3 class="text-light mb-0">Get In Touch</h3>
+						</div>
+						<div class="d-flex mb-2">
+							<p class="mb-0">123 Street, New York, USA</p>
+						</div>
+						<div class="d-flex mb-2">
+							<p class="mb-0">info@pms.bougroup.org</p>
+						</div>
+						<div class="d-flex mb-2">
+							<p class="mb-0">+012 345 67890</p>
+						</div>
+						<div class="d-flex mt-4">
+							<a class="btn btn-dark btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+							<a class="btn btn-dark btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+							<a class="btn btn-dark btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+							<a class="btn btn-dark btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+						<div class="section-title section-title-sm position-relative pb-3 mb-4">
+							<h3 class="text-light mb-0">Quick Links</h3>
+						</div>
+						<div class="link-animated d-flex flex-column justify-content-start">
+							<a class="text-light mb-2" href="#home"><i class="bi bi-house text-dark bold me-2"></i>Home</a>
+							<a class="text-light mb-2" href="#about"><i class="bi bi-info-circle text-dark bold me-2"></i>About Us</a>
+							<a class="text-light mb-2" href="#service"><i class="bi bi-gear text-dark bold me-2"></i>Our Services</a>
+							<a class="text-light mb-2" href="#"><i class="bi bi-file-text text-dark bold me-2"></i>Terms &amp; COndition</a>
+							<a class="text-light mb-2" href="#"><i class="bi bi-shield-lock text-dark bold me-2"></i>Privacy Policy</a>
+							<!-- <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a> -->
+							<!-- <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a> -->
+							<a class="text-light" href="#contact"><i class="bi bi-arrow-right text-dark bold me-2"></i>Contact Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid text-white bg-primary">
+	<div class="container text-center">
+		<div class="row justify-content-end">
+			<div class="col-lg-8 col-md-6">
+				<div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+					<p class="mb-0">© <a class="text-white border-bottom" href="#">PMS</a>. All Rights Reserved.
+		</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer End -->
+
+</div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-dark btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- Full Screen Search Modal Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword"/>
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search Modal End -->
+
+
+
+    <!-- JavaScript Libraries -->
+    <script type="module" src="assets/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/vendor/lib/wow/wow.min.js"></script>
+    <script src="./assets/js/vendor/lib/easing/easing.min.js"></script>
+    <script src="./assets/js/vendor/lib/waypoints/waypoints.min.js"></script>
+    <script src="./assets/js/vendor/lib/counterup/counterup.min.js"></script>
+    <script src="./assets/js/vendor/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="./assets/js/vendor/lib/main.js"></script>
 
 
 </body></html>
