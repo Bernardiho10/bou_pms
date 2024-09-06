@@ -22,6 +22,8 @@
     <link href="./assets/js/vendor/lib/animate/animate.min.css" rel="stylesheet"/>
 
     <!-- Customized Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <link href="./assets/css/property/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Template Stylesheet -->
@@ -110,7 +112,7 @@
                   <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                       <div class="p-3" style="max-width: 900px;">
                           <h4 class="text-white text-uppercase mb-3 animated slideInDown">Revolutionize Your Real Estate with PMS</h4>
-                          <h2 class="display-4 text-white mb-md-4 animated zoomIn">Manage your properties, tenants and rent collection with us</h2>
+                          <h2 class="display-4 text-white mb-md-4 animated zoomIn">Manage your properties, tenants and rent collection with ease</h2>
                           <a href="https://pms.bougroup.org/account/login.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Create free account / Login</a>
                           <a href="#service" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Learn More</a>
                       </div>
@@ -200,7 +202,7 @@
                       </div>
                       <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
                           <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                          <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Affordable Prices</h5>
                           <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
                       </div>
                   </div>
@@ -235,7 +237,65 @@
               <h1 class="mb-0">We Are Here to Grow and Organise Your Real Estate Portfolio</h1>
           </div>
           <div class="row g-5">
-              <div class="col-lg-4">
+            <div class="container-fluid position-relative">
+                <div class="swiper-pagination pms-swiper-pad"></div>
+                <div id="servicesSlider" class="swiper mySwiper " data-bs-ride="carousel" data-bs-interval="5000">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="service-image-container">
+                                <img src="./assets/img/property/slide/slider-tenants.png" alt="Landlords" class="service-image"/>
+                            </div>
+                            <div class="service-content">
+                                <div class="bg-primary rounded d-inline-flex align-items-center justify-content-center mb-3 service-icon">
+                                    <i class="bi bi-person-badge text-white" style="font-size: 2rem;"></i>
+                                </div>
+                                <h4>Landlords</h4>
+                                <p class="mb-0">Manage properties, view tenant info, and track rental revenue effortlessly.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-image-container">
+                                <img src="./assets/img/property/slide/slider-tenants.png" alt="Property Managers" class="service-image"/>
+                            </div>
+                            <div class="service-content">
+                                <div class="bg-primary rounded d-inline-flex align-items-center justify-content-center mb-3 service-icon">
+                                    <i class="bi bi-megaphone text-white" style="font-size: 2rem;"></i>
+                                </div>
+                                <h4>Property Managers</h4>
+                                <p class="mb-0">Oversee maintenance, share vacant units with agents, and handle tenant applications.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-image-container">
+                                <img src="./assets/img/property/slide/slider-tenants.png" alt="Tenants" class="service-image"/>
+                            </div>
+                            <div class="service-content">
+                                <div class="bg-primary rounded d-inline-flex align-items-center justify-content-center mb-3 service-icon">
+                                    <i class="fa fa-users-cog text-white" style="font-size: 2rem;"></i>
+                                </div>
+                                <h4>Tenants</h4>
+                                <p class="mb-0">Pay rent, report maintenance issues, and manage lease agreements seamlessly.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-image-container">
+                                <img src="./assets/img/property/slide/slider-tenants.png" alt="Agents" class="service-image"/>
+                            </div>
+                            <div class="service-content">
+                                <div class="bg-primary rounded d-inline-flex align-items-center justify-content-center mb-3 service-icon">
+                                    <i class="fa fa-phone-alt text-white" style="font-size: 2rem;"></i>
+                                </div>
+                                <h4>Agents</h4>
+                                <p class="mb-0">Collaborate indirectly with the PMS through communication with property managers or landlords. All relevant data related to agents&#39; activities is entered by property managers or landlords.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+              <!-- <div class="col-lg-4">
                   <div class="row g-5">
                       <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
                           <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
@@ -253,9 +313,9 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+              <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                   <div class="position-relative h-100">
-                      <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="./assets/img/property/slide/slider-tenants.png" style="object-fit: contain;"/> 
+                      <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="./assets/img/property/slide/slider-tenants.png" style="object-fit: contain;"> 
                   </div>
               </div>
               <div class="col-lg-4">
@@ -272,11 +332,11 @@
                               <i class="fa fa-phone-alt text-white" style="font-size: 2rem;"></i>
                           </div>
                           <h4>Agents</h4>
-                          <p class="mb-0">Agents will collaborate indirectly with the PMS through communication with property managers or landlords, who will be responsible for entering all relevant data related to the agents&#39; activities, such as property inspections and tenant viewings. </p>
+                          <p class="mb-0">Agents will collaborate indirectly with the PMS through communication with property managers or landlords, who will be responsible for entering all relevant data related to the agents' activities, such as property inspections and tenant viewings. </p>
                           <p class="mb-0">This streamlined process ensures that all necessary information is accurately recorded and managed within the PMS, enhancing efficiency and coordination between all parties involved.</p>
                       </div>
                   </div>
-              </div>
+              </div> -->
           </div>
       </div>
   </div>
@@ -719,6 +779,20 @@
 
     <!-- Template Javascript -->
     <script src="./assets/js/vendor/lib/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+            var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+            console.log("This is index " + index)
+          return '<span class="pms-swiper-pad ' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+        </script>
+        
 
 
 </body></html>
