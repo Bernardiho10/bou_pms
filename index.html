@@ -11,7 +11,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet"/>
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
@@ -39,7 +39,7 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -69,7 +69,7 @@
     <div class="container-fluid position-relative p-0" id="home">
       <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
           <a href="" class="navbar-brand p-0">
-              <h1 class="m-0 custom-text text-white">XTATE</h1>
+              <h1 class="m-0 custom-text text-dark">XTATE</h1>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span class="fa fa-bars"></span>
@@ -102,29 +102,32 @@
               </div>
               <!-- Search For Modal -->
               <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
-              <a href="https://pms.bougroup.org/" class="btn btn-primary py-2 px-4 ms-3">Create free account / Login</a>
+              <a href="https://pms.bougroup.org/" class="btn btn-dark py-2 px-4 ms-3">Create free account / Login</a>
           </div>
       </nav>
+      
+      <div id="xtate-carousel"></div>
 
-      <div id="header-carousel" class="carousel slide carousel-fade min-vh-100" data-bs-ride="carousel">
-          <div class="carousel-inner vh-100">
+      <!-- <div  class="carousel slide carousel-fade min-vh-100" data-bs-ride="carousel">
+          
+        <div id="header-carousel" class="carousel-inner vh-100">
               <div class="carousel-item active vh-100">
-                  <img class="w-100 vh-100" src="./assets/img/property/property1.jpg" alt="Image"/>
+                  <img class="w-100 vh-100" src="./assets/img/property/property1.jpg" alt="Image">
                   <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                       <div class="p-3" style="max-width: 900px;">
-                          <h4 class="text-white text-uppercase mb-3 animated slideInDown">No.1 property management company in Nigeria</h4>
-                          <h2 class="display-4 text-white mb-md-4 animated zoomIn">Manage your properties, tenants and rent collection with ease</h2>
+                          <h4 class="text-white text-uppercase mb-3 animated slideInDown" id="subheader"></h4>
+                          <h2 class="display-4 text-white mb-md-4 animated zoomIn" id="header"></h2>
                           <a href="https://pms.bougroup.org/account/login.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Create free account / Login</a>
                           <a href="#service" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Learn More</a>
                       </div>
                   </div>
               </div>
               <div class="carousel-item vh-100">
-                  <img class="w-100 h-100" src="./assets/img/property/property2.jpeg" alt="Image"/>
+                  <img class="w-100 h-100" src="./assets/img/property/property2.jpeg" alt="Image">
                   <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                       <div class="p-3" style="max-width: 900px;">
-                          <h4 class="text-white text-uppercase mb-3 animated slideInDown">Full transparency accountability and no hidden cost</h4>
-                          <h2 class="display-4 text-white mb-md-4 animated zoomIn">Take control of your Real Estate Portfolio</h2>
+                          <h4 class="text-white text-uppercase mb-3 animated slideInDown" id="slider-2-subheader">Full transparency accountability and no hidden cost</h4>
+                          <h2 class="display-4 text-white mb-md-4 animated zoomIn" id="slider-2-header">Take control of your Real Estate Portfolio</h2>
                           <a href="https://pms.bougroup.org/account/login.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Create free account / Login</a>
                           <a href="#" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                       </div>
@@ -132,15 +135,20 @@
               </div>
 
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
           </button>
-      </div>
+      </div> -->
+
+      
+
   </div>
   <!-- Navbar & Carousel End -->
 
@@ -157,33 +165,33 @@
                 <div class="col-lg-4 mb-2 wow zoomIn" data-wow-delay="0.1s">
                     <div class="bg-white pms-counter d-flex align-items-center justify-content-center p-4 rounded" style="height: 150px;">
                         <div class="bg-light d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-users text-primary fs-3"></i>
+                            <i class="fa fa-users text-dark fs-3"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-primary mb-0">Clients</h5>
-                            <h1 class="text-primary mb-0" data-toggle="counter-up">130</h1>
+                            <h5 class="text-dark mb-0" id="client">Clients</h5>
+                            <h1 class="text-dark mb-0" data-toggle="counter-up" id="client_stats">130</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-2 mb-2 wow zoomIn" data-wow-delay="0.3s">
                     <div class="pms-counter d-flex align-items-center justify-content-center p-4 rounded" style="height: 150px;">
                         <div class="bg-light d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-check text-primary fs-3"></i>
+                            <i class="fa fa-check text-dark fs-3"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-primary mb-0">Properties</h5>
-                            <h1 class="mb-0 text-primary" data-toggle="counter-up">1054</h1>
+                            <h5 class="text-dark mb-0">Properties</h5>
+                            <h1 class="mb-0 text-dark" data-toggle="counter-up">1054</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-2 mb-2 wow zoomIn" data-wow-delay="0.6s">
                     <div class="bg-white pms-counter d-flex align-items-center justify-content-center p-4 rounded" style="height: 150px;">
                         <div class="bg-light d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-award text-primary fs-3"></i>
+                            <i class="fa fa-award text-dark fs-3"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-primary mb-0">Locations</h5>
-                            <h1 class="text-primary mb-0" data-toggle="counter-up">45</h1>
+                            <h5 class="text-dark mb-0">Locations</h5>
+                            <h1 class="text-dark mb-0" data-toggle="counter-up">45</h1>
                         </div>
                     </div>
                 </div>
@@ -195,33 +203,31 @@
 
       <div class="container">
           <div class="row g-5">
+            <h4 class="fw-bold text-dark text-capitalize text-center py-5">leading-edge property management platform designed for landlords, real estate companies, and property managers.</h4>
               <div class="col-lg-6">
-                  <div class="section-title position-relative mb-3">
-                      <h4 class="fw-bold text-primary text-uppercase">About Us</h4>
-                  </div>
-                  <h3 class="mb-4 custom-text">Xtate is a property management application designed for landlords, real estate companies, and property managers to streamline property management, rent collection, and maintenance tracking.</h3>
+                  <h3 class="mb-4 fw-normal" id="about_content"></h3>
                   <div class="row g-0 mb-3">
                       <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                          <h6 class="mb-3"><i class="fa fa-check text-light bg-primary p-2 rounded me-2"></i>Easy to use</h6>
-                          <h6 class="mb-3"><i class="fa fa-check text-light bg-primary p-2 rounded me-2"></i>Comprehensive Reporting</h6>
-                          <h6 class="mb-3"><i class="fa fa-check text-light bg-primary p-2 rounded me-2"></i>Seamless Maintenance Tracking</h6>
+                          <h6 class="mb-3"><i class="fa fa-check text-dark p-2 rounded me-2"></i>Easy to use</h6>
+                          <h6 class="mb-3"><i class="fa fa-check text-dark  p-2 rounded me-2"></i>Comprehensive Reporting</h6>
+                          <h6 class="mb-3"><i class="fa fa-check text-dark  p-2 rounded me-2"></i>Seamless Maintenance Tracking</h6>
                       </div>
                       <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                          <h6 class="mb-3"><i class="fa fa-check text-light bg-primary p-2 rounded me-2"></i>24/7 Customer Support</h6>
-                          <h6 class="mb-3"><i class="fa fa-check text-light bg-primary p-2 rounded me-2"></i>Affordable</h6>
-                          <h6 class="mb-3"><i class="fa fa-check text-light bg-primary p-2 rounded me-2"></i>Efficient Rent Collection</h6>
+                          <h6 class="mb-3"><i class="fa fa-check text-dark  p-2 rounded me-2"></i>24/7 Customer Support</h6>
+                          <h6 class="mb-3"><i class="fa fa-check text-dark  p-2 rounded me-2"></i>Affordable</h6>
+                          <h6 class="mb-3"><i class="fa fa-check text-dark  p-2 rounded me-2"></i>Efficient Rent Collection</h6>
                       </div>
                   </div>
                   <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                      <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                          <i class="fa fa-phone-alt text-white"></i>
+                      <div class="bg-white border border-dark d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                          <i class="fa fa-phone-alt text-dark"></i>
                       </div>
                       <div class="ps-4">
-                          <h5 class="mb-2">Call to ask any question</h5>
-                          <h4 class="text-primary mb-0">+012 345 6789</h4>
+                          <h5 class="mb-2" id="cta_text">Call to ask any question</h5>
+                          <h4 class="text-dark mb-0" id="cta_number">+012 345 6789</h4>
                       </div>
                   </div>
-                  <a href="#quote" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
+                  <a href="#quote" class="btn btn-dark py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
               </div>
               <div class="col-lg-6" style="min-height: 500px;">
                   <div class="position-relative h-100">
@@ -236,7 +242,7 @@
   <!--  Features Start -->
   <div class="container-fluid wow fadeInUp min-vh-100" data-wow-delay="0.1s" id="features">
       <div class="container">
-          <div class="section-title text-left position-relative mb-3 mx-auto">
+          <div class="section-title text-center py-5 position-relative mb-3 mx-auto">
               <h4 class="fw-bold text-primary text-uppercase">Who Can Benefit from PMS?</h4>
               <h3 class="mb-0">We Are Here to Grow and Organise Your Real Estate Portfolio</h3>
           </div>
@@ -260,18 +266,11 @@
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Financial Overview</li>
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Tenant Screening</li>
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Maintenance Tracking</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Vacancy Monitoring</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Team Collaboration</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Financial Reporting</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Document Management</li>
                                             </ul>
-                                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#landlordFeatures" aria-expanded="false">
-                                                Show More
-                                            </button>
-                                            <div class="collapse mt-3" id="landlordFeatures">
-                                                <ul class="list-unstyled">
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Vacancy Monitoring</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Team Collaboration</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Financial Reporting</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Document Management</li>
-                                                </ul>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -292,20 +291,14 @@
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Tenant Management</li>
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Rent Collection</li>
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Maintenance Coordination</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Inspection Management</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Financial Management</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Lease Administration</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Vendor Management</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Communication Hub</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Reporting and Analytics</li>
                                             </ul>
-                                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#managerFeatures" aria-expanded="false">
-                                                Show More
-                                            </button>
-                                            <div class="collapse mt-3" id="managerFeatures">
-                                                <ul class="list-unstyled">
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Inspection Management</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Financial Management</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Lease Administration</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Vendor Management</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Communication Hub</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Reporting and Analytics</li>
-                                                </ul>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -326,17 +319,10 @@
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Maintenance Requests</li>
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Document Access</li>
                                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Communication Portal</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Account Management</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Lease Signing</li>
+                                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Inspection Scheduling</li>
                                             </ul>
-                                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#tenantFeatures" aria-expanded="false">
-                                                Show More
-                                            </button>
-                                            <div class="collapse mt-3" id="tenantFeatures">
-                                                <ul class="list-unstyled">
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Account Management</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Lease Signing</li>
-                                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Inspection Scheduling</li>
-                                                </ul>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -375,10 +361,10 @@
 
   <!-- Testimonial Start -->
   <div class="container-fluid wow fadeInUp py-5" data-wow-delay="0.1s">
-      <div class="container">
-          <div class="section-title text-left position-relative pb-3 mb-4 mx-auto">
-              <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
-          </div>
+        <div class="section-title text-center py-5 position-relative mb-3 mx-auto">
+            <h4 class="fw-bold text-primary text-uppercase">What our clients have to say</h4>
+            <h3 class="mb-0">Testimonials</h3>
+        </div>
           <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
               <div class="testimonial-item pms-counter my-4">
                   <div class="d-flex align-items-center  pt-5 pb-4 px-5">
@@ -429,7 +415,6 @@
                   </div>
               </div>
           </div>
-      </div>
   </div>
   <!-- Testimonial End -->
 
@@ -749,7 +734,7 @@
 <!-- FAQ End
 
   <!-- Footer Start -->
-  <div class="container-fluid bg-primary text-light wow fadeInUp pms-d-h" data-wow-delay="0.1s">
+  <div class="container-fluid bg-dark text-light wow fadeInUp pms-d-h pb-1" data-wow-delay="0.1s">
 	<div class="container">
 		<div class="row gx-5">
 			<!-- <div class="col-lg-4 col-md-6 footer-about">
@@ -766,7 +751,7 @@
 				<div class="row gx-5">
 					<div class="col-lg-8 col-md-6 pt-5">
 						<div class="section-title section-title-sm position-relative pb-3">
-							<h3 class="text-light mb-0">Get In Touch</h3>
+							<h3 class="text-light mb-0">Let&#39;s Get in Touch</h3>
 						</div>
 						<div class="d-flex mb-2">
 							<p class="mb-0">123 Street, Kurudu, Nigeria</p>
@@ -778,10 +763,10 @@
 							<p class="mb-0">+012 345 67890</p>
 						</div>
 						<div class="d-flex mt-4">
-							<a class="btn btn-dark btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-							<a class="btn btn-dark btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-							<a class="btn btn-dark btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-							<a class="btn btn-dark btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+							<a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+							<a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+							<a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+							<a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 pt-5 pt-lg-5">
@@ -800,7 +785,7 @@
 		</div>
 	</div>
 </div>
-<div class="container-fluid text-white bg-primary">
+<div class="container-fluid text-white bg-dark">
 	<div class="container text-center">
 		<div class="row justify-content-end">
 			<div class="col-lg-12 col-md-12">

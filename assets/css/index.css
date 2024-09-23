@@ -1,3 +1,54 @@
+/* GOOGLE FONTS */
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
 /********** PMS CSS **********/
 :root {
     --primary: #06A3DA;
@@ -17,7 +68,7 @@
     animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 
-@-webkit-keyframes sk-rotateplane {
+/* @-webkit-keyframes sk-rotateplane {
     0% {
         -webkit-transform: perspective(120px)
     }
@@ -42,7 +93,7 @@
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
         -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
-}
+} */
 
 #spinner {
     opacity: 0;
@@ -431,13 +482,12 @@ h6,
     font-size: 18px;
     background: #fff;
     text-align: left;
+    display: flex;
   }
 
   .swiper-slide img {
     display: block;
-    width: 90%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%;
   }
 
   .swiper-pagination-bullet {
@@ -470,7 +520,10 @@ h6,
 
   .service-content > div > div.card{
     border: unset !important;
-    border-bottom: 1px solid lightblue !important;
+  }
+
+  .service-content > div > div.card > div.card-body > ul.list-unstyled > li{
+    padding: 10px;
   }
 
   .pms-swiper-pad{
@@ -493,9 +546,7 @@ h6,
     box-shadow: 3px 3px 5px rgba(13, 110, 253, 0.1) inset, -3px -3px 5px rgba(13, 110, 253, 0.1) inset;
 
   }
-  .service-image-container{
-    width: 60%;
-  }
+  
 
   .faq-icon {
     font-size: 2rem;
@@ -514,7 +565,14 @@ h6,
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230d6efd'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
+.custom-text {
+    color: #06A3DA;
+    text-transform: lowercase;
+    font-size: 40px;
+  }
+
 .custom-text::first-letter {
     color: #06A3DA;
+    text-transform: capitalize;
     font-size: 40px;
   }
