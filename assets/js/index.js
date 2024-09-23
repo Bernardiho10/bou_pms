@@ -56,7 +56,7 @@ class Carousel extends AbstractCustomElement_1 {
             parentSliderContainer.appendChild(slideElement);
         });
         sliderContainer.appendChild(parentSliderContainer);
-        // sliderContainer.insertAdjacentHTML('beforeend', btnHTML);
+        // sliderContainer.insertAdjacentHTML('beforeend', btnHTML); 
         this.appendChild(sliderContainer);
     }
 }
@@ -68,8 +68,11 @@ class XtateView extends MagicView_1 {
         this.registerElement("bannerSlider", this.Carousel);
         this.registerElement("cta.cta_text", "cta_text");
         this.registerElement("statistics.clients", "client");
+        this.registerElement("statistics.properties", "properties");
+        this.registerElement("statistics.locations", "locations");
         this.registerElement("aboutSection.content", "about_content");
-        // this.registerElement("aboutSection.title", "about_title");
+        this.registerElement("aboutSection.title", "about_title");
+        this.registerElement("aboutSection.title", "about_title");
         // this.registerElement("cta.cta_number", "cta_number");
         // this.registerElement("cta.cta_number", "cta_number");
         // this.registerElement("cta.cta_number", "cta_number");
